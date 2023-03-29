@@ -56,7 +56,7 @@ local LockSection = Tab:Section({
    Color = Color3.fromRGB(0, 0, 255)
 })
 
-StreamableSection:Check({
+LockSection:Check({
    Text = "Enable Streamable Lock Press C",
    Callback = function(bool)
        if bool then
