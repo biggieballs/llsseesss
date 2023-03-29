@@ -69,7 +69,7 @@ local AimtrainSection = Tab:Section({
    Color = Color3.fromRGB(0, 0, 255)
 })
 
-LockSection:Check({
+AimtrainSection:Check({
    Text = "Enable Prediction Dot Q",
    Callback = function(bool)
        if bool then
