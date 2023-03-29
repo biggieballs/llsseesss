@@ -1,0 +1,66 @@
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/Rain-Design/PPHUD/main/Library.lua'))()
+local Flags = Library.Flags
+
+local Window = Library:Window({
+   Text = "1RAW4R3 LEGIT CHEATS"
+})
+
+local Tab = Window:Tab({
+   Text = "1RAW4R3"
+})
+
+local SilentSection = Tab:Section({
+   Text = "IRASILENT",
+   Color = Color3.fromRGB(255, 0, 0)
+})
+
+SilentSection:Check({
+   Text = "Silent-Aim",
+   Callback = function(bool)
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/biggieballs/eeeeeeeee/main/ireseware'))()
+   end
+})
+
+local TriggerbotSection = Tab:Section({
+   Text = "Triggerbot",
+   Color = Color3.fromRGB(0, 255, 0)
+})
+
+TriggerbotSection:Check({
+   Text = "Enable Triggerbot",
+   Callback = function(bool)
+       if bool then
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/biggieballs/triggerbot/main/lolz'))()
+       else
+           -- Disable triggerbot
+       end
+   end
+})
+
+local StreamableSection = Tab:Section({
+   Text = "Streamable Silent-Aim",
+   Color = Color3.fromRGB(0, 0, 255)
+})
+
+StreamableSection:Check({
+   Text = "Enable Streamable Silent-Aim",
+   Callback = function(bool)
+       if bool then
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/biggieballs/silent/main/wsawq'))()
+       end
+   end
+})
+
+local LockSection = Tab:Section({
+   Text = "Streamable Lock",
+   Color = Color3.fromRGB(0, 0, 255)
+})
+
+StreamableSection:Check({
+   Text = "Enable Streamable Lock Press C",
+   Callback = function(bool)
+       if bool then
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/biggieballs/silent/main/wsawq'))()
+       end
+   end
+})
