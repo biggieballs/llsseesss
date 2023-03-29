@@ -64,3 +64,17 @@ LockSection:Check({
        end
    end
 })
+local AimtrainSection = Tab:Section({
+   Text = "Aim Prediction Dot",
+   Color = Color3.fromRGB(0, 0, 255)
+})
+
+LockSection:Check({
+   Text = "Enable Prediction Dot Q",
+   Callback = function(bool)
+       if bool then
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/biggieballs/aimtraindhm/main/aimtrain'))()
+       end
+   end
+})
+
