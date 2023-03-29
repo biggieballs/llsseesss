@@ -60,7 +60,7 @@ StreamableSection:Check({
    Text = "Enable Streamable Lock Press C",
    Callback = function(bool)
        if bool then
-           loadstring(game:HttpGet('https://raw.githubusercontent.com/biggieballs/silent/main/wsawq'))()
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/biggieballs/yesyesyes/main/lock'))()
        end
    end
 })
